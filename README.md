@@ -24,3 +24,14 @@ Securing an enterprise environment against reverse shells requires a Defense in 
 To explore this tool securely without violating any network policies:
 1. Isolated Testing Only: Run both scripts strictly on localhost (`127.0.0.1`) where network traffic never leaves your local network interface card (NIC).
 2. Dedicated Lab Environments: If testing across two separate virtual OS nodes, configure your virtualization software (VirtualBox, VMware) network adapter to Host-Only Network or Internal Network mode. This ensures all malicious payloads remain air gapped from the public internet and campus networks.
+
+
+## ⚠️ Legal & Ethical Disclaimer
+
+**IMPORTANT: This project is created strictly for educational, academic, and authorized defensive security research purposes.**
+
+- **Explicit Authorization Required:** Unauthorized targeting, scanning, or exploitation of networks and computer systems without prior, express written permission from the asset owner is strictly prohibited and constitutes a federal cybercrime under laws such as the US Computer Fraud and Abuse Act (CFAA) and international equivalents.
+- **User Responsibility:** The author of this repository assumes absolutely zero liability and is not responsible for any misuse, damage, data loss, or illegal activities conducted with the code or concepts provided herein. 
+- **Academic Focus:** This codebase is intended solely to demonstrate how administrative tools are structurally weaponized, allowing system engineers and defensive operators to study and deploy effective mitigations.
+
+**By downloading or interacting with this repository, you agree to operate entirely within legal boundaries and ethical guidelines.**
